@@ -1,10 +1,15 @@
 ---
 title: WASH investments
 author:
-  - name: First Second Last
+  - name: First Author
     orcid: 0000-0000-0000-0000
     corresponding: true
-    email: me@me.com
+    email: first@example.com
+    affiliations:
+      - name: My University
+  - name: Second Author
+    orcid: 0000-0000-0000-0000
+    email: second@example.com
     affiliations:
       - name: My University
 date: last-modified
