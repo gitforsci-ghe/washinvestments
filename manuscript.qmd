@@ -26,14 +26,17 @@ execute:
   warning: false
   message: false
 bibliography: references.bib
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r}
 #| include: false
+
 # install required R packages (fallback if pre-work Step 6 was not completed)
-# install.packages(c("devtools", "ggplot2", "ggthemes",
-#                    "countrycode", "dplyr", "rmarkdown"))
-# devtools::install_github("openwashdata/washinvestments")
+# uncomment and run once if the library() calls below fail on a missing package
+# install.packages("pak")
+# pak::pak(c("ggplot2", "ggthemes", "countrycode", "dplyr", "rmarkdown", "openwashdata/washinvestments"))
 ```
 
 # Data import

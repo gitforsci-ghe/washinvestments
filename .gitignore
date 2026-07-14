@@ -3,12 +3,7 @@
 .RData
 .Ruserdata
 .quarto/
-/index_files/
 
 /.quarto/
 **/*.quarto_ipynb
 
-# rendered manuscript output (this repo is no longer published)
-/index.html
-/index_files/
-/docs/
