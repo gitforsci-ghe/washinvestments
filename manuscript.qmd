@@ -34,10 +34,9 @@ editor_options:
 #| include: false
 
 # install required R packages (fallback if pre-work Step 6 was not completed)
-
-install.packages("pak")
-pak::pak(c("ggplot2", "ggthemes", "countrycode", "dplyr", "rmarkdown", "openwashdata/washinvestments"))
-pak::pak(c("openwashdata/washinvestments"))
+# uncomment and run once if the library() calls below fail on a missing package
+# install.packages("pak")
+# pak::pak(c("ggplot2", "ggthemes", "countrycode", "dplyr", "rmarkdown", "openwashdata/washinvestments"))
 ```
 
 # Data import
